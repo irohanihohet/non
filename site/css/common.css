@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+
+body{
+  font-family: 'Zen Maru Gothic', sans-serif;
+  background: linear-gradient(120deg, #a6c0fe 0%, #EE82EE 50%, #f68084 100%);
+}
+
+
+
+div#wrap{
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 50px #222;
+}
+
+
+
+header{
+  width: 1000px;
+  height: 350px;
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+  header h1{
+    font-size: 5rem;
+    font-weight: normal;
+    color: #fff;
+    padding: 20px 0 0 0;
+    text-align: center;
+    text-shadow: 0 0 30px #000, 0 0 30px #000, 0 0 30px #000, 0 0 30px #000;
+  }
+  header h1.fadeIn {
+    animation-name: fadeInAnime;
+    animation-fill-mode:backwards;
+    animation-delay: 0.1s;
+    animation-duration:1.0s;
+  }
+  @keyframes fadeInAnime{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  header p{
+    font-size: 1.1rem;
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+main{
+  padding: 100px 0 100px 0;
+}
+  main a{
+    text-decoration: none;
+    color: #4169E1;
+  }
+  main a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+  }
+
+
+
+footer{
+  width: 1000px;
+  height: 0;
+  line-height: 0;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(120deg, #a6c0fe 0%, #DA70D6 50%, #f68084 100%);
+}

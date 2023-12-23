@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* login前の共通css */
+
+main{
+}
+  main section{
+    margin: 0 0 100px 0;
+  }
+  main section:last-chaild{
+    margin: 0 0 0 0;
+  }
+    main section h2{
+      margin: 0 0 10px 0;
+      padding: 0 0 0 10px;
+      font-size:1.4rem;
+      color: #EE82EE;
+    }
+    main section p{
+      margin: 0 0 20px 0;
+      padding: 0 0 0 10px;
+      line-height: 1.6rem;
+    }
+
+div#print{
+      line-height: 1.6rem;
+}
+
